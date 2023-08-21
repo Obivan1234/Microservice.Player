@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[2.21.0, )"
             },
+            "Play.Common": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
             "microsoft.extensions.configuration": {
               "target": "Package",
               "version": "[7.0.0, )"

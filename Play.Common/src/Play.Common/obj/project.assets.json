@@ -1057,6 +1057,7 @@
     "net7.0": [
       "MongoDB.Bson >= 2.21.0",
       "MongoDB.Driver >= 2.21.0",
+      "Play.Common >= 1.0.2",
       "microsoft.extensions.configuration >= 7.0.0",
       "microsoft.extensions.configuration.binder >= 7.0.4",
       "microsoft.extensions.dependencyinjection >= 7.0.0"
@@ -1114,6 +1115,10 @@
             "target": "Package",
             "version": "[2.21.0, )"
           },
+          "Play.Common": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "microsoft.extensions.configuration": {
             "target": "Package",
             "version": "[7.0.0, )"
@@ -1146,5 +1151,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  Play.Common -> Play.Common (>= 1.0.2).",
+      "libraryId": "Play.Common",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

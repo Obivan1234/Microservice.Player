@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Gqg+b+CG7fDtOj4u8kzq0kIY0VpNVHQ1JWFveVScEGeVZEhd6StmmOhvY8rN9tmaHwsiG0JfrzErKoNdbNXKow==",
-  "success": true,
+  "dgSpecHash": "h28Qj2s6AQckcF0LaKsRzdcfFf6N8ssYX9bXYtJqCwibYdIg0ShB7+89iwckHeyVO3TZWcHGYd0rXo90goh5MQ==",
+  "success": false,
   "projectFilePath": "D:\\Ugrin\\Stepan\\Practising\\Microsrvice.Player\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Uhryn\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
@@ -29,5 +29,15 @@
     "C:\\Users\\Uhryn\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\Uhryn\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  Play.Common -> Play.Common (>= 1.0.2).",
+      "libraryId": "Play.Common",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
