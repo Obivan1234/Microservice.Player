@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ugrin\\Stepan\\Stepan\\Stepan\\Programing\\Play.Inventory\\src\\Play.Inventory.Service\\Play.Inventory.Service.csproj": {}
+    "D:\\Ugrin\\Stepan\\Practising\\Microsrvice.Player\\Play.Inventory\\src\\Play.Inventory.Service\\Play.Inventory.Service.csproj": {}
   },
   "projects": {
-    "D:\\Ugrin\\Stepan\\Stepan\\Stepan\\Programing\\Play.Inventory\\src\\Play.Inventory.Service\\Play.Inventory.Service.csproj": {
+    "D:\\Ugrin\\Stepan\\Practising\\Microsrvice.Player\\Play.Inventory\\src\\Play.Inventory.Service\\Play.Inventory.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ugrin\\Stepan\\Stepan\\Stepan\\Programing\\Play.Inventory\\src\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
+        "projectUniqueName": "D:\\Ugrin\\Stepan\\Practising\\Microsrvice.Player\\Play.Inventory\\src\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
         "projectName": "Play.Inventory.Service",
-        "projectPath": "D:\\Ugrin\\Stepan\\Stepan\\Stepan\\Programing\\Play.Inventory\\src\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
+        "projectPath": "D:\\Ugrin\\Stepan\\Practising\\Microsrvice.Player\\Play.Inventory\\src\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
         "packagesPath": "C:\\Users\\Uhryn\\.nuget\\packages\\",
-        "outputPath": "D:\\Ugrin\\Stepan\\Stepan\\Stepan\\Programing\\Play.Inventory\\src\\Play.Inventory.Service\\obj\\",
+        "outputPath": "D:\\Ugrin\\Stepan\\Practising\\Microsrvice.Player\\Play.Inventory\\src\\Play.Inventory.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,44 +43,17 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.10, )"
-            },
-            "Microsoft.Extensions.Http.Polly": {
-              "target": "Package",
-              "version": "[7.0.10, )"
-            },
-            "Play.Common": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

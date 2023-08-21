@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "de15f52f-8e9d-4ca7-b475-a2cb73c1e4fd": {
+      "ProjectGuid": "de15f52f-8e9d-4ca7-b475-a2cb73c1e4fd",
+      "DisplayName": "Play.Catalog.Service",
+      "ColorIndex": 0
+    },
+    "1dee6b84-5886-4f93-ae5c-dc90149c4729": {
+      "ProjectGuid": "1dee6b84-5886-4f93-ae5c-dc90149c4729",
+      "DisplayName": "Play.Catalog.Service",
+      "ColorIndex": 1
+    },
+    "9eef7331-e02d-4065-8e30-25f73c65bb68": {
+      "ProjectGuid": "9eef7331-e02d-4065-8e30-25f73c65bb68",
+      "DisplayName": "Play.Inventory.Service",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

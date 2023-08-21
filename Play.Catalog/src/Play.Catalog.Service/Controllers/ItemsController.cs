@@ -21,25 +21,25 @@ namespace Play.Catalog.Service.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ItemDto>>> GetAsync()
         {
-            requestCounter++;
-            System.Console.WriteLine($"Request {requestCounter}: Statring ...");
+            // requestCounter++;
+            // System.Console.WriteLine($"Request {requestCounter}: Statring ...");
 
-            if(requestCounter <= 2)
-            {
-                System.Console.WriteLine($"Request {requestCounter}: Delaying ...");
-                await Task.Delay(TimeSpan.FromSeconds(10));
-            }
+            // if(requestCounter <= 2)
+            // {
+            //     System.Console.WriteLine($"Request {requestCounter}: Delaying ...");
+            //     await Task.Delay(TimeSpan.FromSeconds(10));
+            // }
 
-            if(requestCounter <= 2)
-            {
-                System.Console.WriteLine($"Request {requestCounter}: 500 (Internal Server Error). "); 
-                return StatusCode(500);
-            }
+            // if(requestCounter <= 2)
+            // {
+            //     System.Console.WriteLine($"Request {requestCounter}: 500 (Internal Server Error). "); 
+            //     return StatusCode(500);
+            // }
 
             var items = (await itemsRepository.GetAllAsync())
                         .Select(x => x.AsDto());
 
-            System.Console.WriteLine($"Request {requestCounter}: 200 (Ok). ");            
+            //System.Console.WriteLine($"Request {requestCounter}: 200 (Ok). ");            
 
             return Ok(items);
         }

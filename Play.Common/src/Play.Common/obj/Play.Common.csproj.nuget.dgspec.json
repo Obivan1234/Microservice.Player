@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ugrin\\Stepan\\Stepan\\Stepan\\Programing\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {}
+    "D:\\Ugrin\\Stepan\\Practising\\Microsrvice.Player\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {}
   },
   "projects": {
-    "D:\\Ugrin\\Stepan\\Stepan\\Stepan\\Programing\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {
-      "version": "1.0.0",
+    "D:\\Ugrin\\Stepan\\Practising\\Microsrvice.Player\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {
+      "version": "1.0.2",
       "restore": {
-        "projectUniqueName": "D:\\Ugrin\\Stepan\\Stepan\\Stepan\\Programing\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
+        "projectUniqueName": "D:\\Ugrin\\Stepan\\Practising\\Microsrvice.Player\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
         "projectName": "Play.Common",
-        "projectPath": "D:\\Ugrin\\Stepan\\Stepan\\Stepan\\Programing\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
+        "projectPath": "D:\\Ugrin\\Stepan\\Practising\\Microsrvice.Player\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
         "packagesPath": "C:\\Users\\Uhryn\\.nuget\\packages\\",
-        "outputPath": "D:\\Ugrin\\Stepan\\Stepan\\Stepan\\Programing\\Play.Common\\src\\Play.Common\\obj\\",
+        "outputPath": "D:\\Ugrin\\Stepan\\Practising\\Microsrvice.Player\\Play.Common\\src\\Play.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -25,6 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Ugrin\\Stepan\\Stepan\\Stepan\\Programing\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

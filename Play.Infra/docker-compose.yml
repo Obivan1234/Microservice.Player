@@ -1,8 +1,25 @@
-# docker run -d --rm --name mongo -p 27017:27017 -v mongodbdata:/data/db mongo
 
 version: '3.8'
 
 services:
+  play-catalog:
+    build:
+      context: D:/Ugrin/Stepan/Practising/Microsrvice.Player/Play.Catalog/src/Play.Catalog.Service  # Path to your Play.Catalog project
+      dockerfile: Dockerfile    # Dockerfile for Play.Catalog
+    ports:
+      - "5000:80"               # Map host port 5000 to container port 80
+    depends_on:
+      - mongo
+
+  # play-inventory:
+  #   build:
+  #     context: D:\Ugrin\Stepan\Practising\Microsrvice.Player\Play.Inventory\src\Play.Inventory.Service  # Path to your Play.Inventory project
+  #     dockerfile: Dockerfile     # Dockerfile for Play.Inventory
+  #   ports:
+  #     - "5001:80"                # Map host port 5001 to container port 80
+  #   depends_on:
+  #     - mongo
+
   mongo:
     image: mongo
     container_name: mongo
